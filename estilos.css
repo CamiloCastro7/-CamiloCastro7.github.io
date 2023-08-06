@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: fuente;
+    src: url(fuente.ttf)
+}
+
+body {
+    background-image: url(./img/fondo.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+#inicio {
+    margin-top: 170px;
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    text-align: center;
+    font-family: fuente;
+    font-size: 50px;
+    color: rgba(35,30,26,255);
+    letter-spacing: 4px;
+    position: relative;
+}
+
+#titulo:hover {
+    text-align: center;
+    font-family: fuente;
+    font-size: 60px;
+    color: rgba(35,30,26,255);
+    letter-spacing: 10px;
+}
+
+#parte2 {
+    margin-top: 430px;
+    width: 100%;
+    height: 1500px;
+    background-color: white;
+    background-color: rgba(35,30,26,255)
+}
+
+
+#titulo2 {
+    width: 100%;
+    height: 150px;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fuente;
+    font-size: 60px;
+    color: rgba(247,204,185,255);
+}
+
+#educativo
+{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+
+}
+
+#educativo1 {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.fotos {
+    width: 16%;
+    height: 25%;
+    float: left;
+}
+
+#educativo1b {
+    width: 80%;
+    height: 100%;
+    margin:auto;
+    background-color: rgba(65,84,90,255);
+    border-radius: 50px;    
+}
+
+#educativo2{
+    background-image: url(./img/liceo5BN.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+#educativo2:hover {
+    background-image: url(./img/liceo5.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+#educativo3 {
+    background-image: url(./img/zorrillaBN.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+#educativo3:hover {
+    background-image: url(./img/zorrilla.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+#educativo4 {
+    background-image: url(./img/esiBN.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+#educativo4:hover {
+    background-image: url(./img/esi.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+}
+#educativo5 {
+    background-image: url(./img/logojapBN.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+#educativo5:hover {
+    background-image: url(./img/logojap.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+#educativo_titulo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fuente;
+    font-size: 40px;
+    color: rgba(247,204,185,255);
+}
+
+.ed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+p {
+    font-family: fuente;
+    font-size: 20px;
+    color: rgba(247,204,185,255);
+    text-indent: 20px;
+}
+
+.liceo {
+    background-color: cadetblue;
+}
+
+#laboral {
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+}
+
+#laboral1 {
+    width: 40%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#laboral2 {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+#img_laboral {
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/brouBN.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#img_laboral:hover {
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/brou.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#text_laboral {
+    width: 80%;
+    height: 100%;
+    margin:auto;
+    background-color: rgba(54,61,51,255);
+    border-radius: 50px;
+}
+
+#titulo_laboral {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fuente;
+    font-size: 40px;
+    color: rgba(247,204,185,255);
+}
+
+#desarrollo_laboral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
